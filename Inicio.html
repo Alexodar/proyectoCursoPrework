@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .titulo{
+            text-align: center;
+        }
+
+        .navegador{
+            list-style: none;
+            background-color: rgb(0, 0, 0)    ;
+        }
+
+        .navegador li a{
+            text-decoration: none;
+            padding: 20px;
+            margin-right: 100px;
+            display: block;
+            color: white;
+        }
+
+        .navegador li {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .navegador li a:hover{
+            background-color: bisque;
+        }
+
+        .formulario{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+     
+
+    </style>
+    
+</head>
+<body style="align-items: botton; ">
+    <header class="titulo">
+       <p>C&FContability</p>
+    </head>
+    <nav>
+        <ul class="navegador">
+            <li>
+                <a href="/Inicio.html" >INICIO</a>
+            </li>
+            <li>
+                <a href="">CONTABILIDAD</a>
+            </li>
+            <li>
+                <a href="">FACTURACIÓN</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="formulario">    
+        <div class="formulario_informacion">
+            <h1>Ingrese los datos</h1>
+            <form action="">
+
+                <label for="">Nombre del cliente </label>
+                <input type="text" name="cliente" id="Nombre_cliente" placeholder="Ingrese el nombre"> <br> <br>   
+                
+                <label for="">¿Son fotos de meses?</label>
+                <input class="boton_check" type="checkbox"> <br><br>
+
+                <label for="">Nombre del bebe </label>
+                <input class="controls" type="text" name="bebe" id="Nombre_cliente" placeholder="Ingrese el nombre del bebe"> <br> <br>   
+
+                <label for="">Meses</label>
+                <input class="controls" type="text" name="meses" id="Nombre_cliente" placeholder="Número de meses"> <br> <br>   
+                        
+                <label for="">Número de contacto </label>
+                <input class="controls" type="text" name="contacto" id="Nombre_cliente" placeholder="Número de contacto"><br> <br>
+                
+                <label for="">¿Tipo de paquete?</label>
+                <input class="controls" type="text" name="tipo_paquete" id="Nombre_cliente" placeholder="tipo de paquete"><br> <br>
+            
+                <label for="">¿Valor del paquete?</label>
+                <input class="controls" type="text" name="precio" id="Nombre_cliente" placeholder="Ingrese el valor"><br> <br>
+            
+                <label for="">¿Abono?</label>
+                <input class="boton_check" type="checkbox"> <br> <br>
+                
+                <label for=""> Valor del abono </label>
+                <input class="controls" type="text" name="abono" id="Nombre_cliente" placeholder="Ingrese el valor"><br> <br>
+                
+                <label for="valor_total_paquete"> Total </label> <br><br>
+                <!-- agregar valor total debajo de total  -->
+
+                <label for=""> Descripción paquete</label> <br><br>
+                <input class="controls" type="text" name="descripcion" id="Nombre_cliente" placeholder="Descripcion">
+
+                <hr>
+
+
+
+            </form>
+        </div>
+
+        
+        <div class="ventabasededatos">
+            <h1>Base de datos</h1>
+            <aside>
+
+            </aside>
+            <hr>
+        </div>
+  
+    </section>
+    
+    
+</body>
+</html>
